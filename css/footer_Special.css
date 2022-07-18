@@ -1,0 +1,59 @@
+
+
+[class^="fab fa"]{  /*Selector de clases para los iconos*/
+	font-size: 50px;
+	text-align: center;
+}
+
+.item [class^="fas fa"]{  /*Selector de clases para los iconos*/
+	font-size: 50px;
+	text-align: center;
+}
+
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.textos-footer{
+	grid-column: 1/-1;
+}
+
+[class^="footer-item"] a{  /*Selector de clases para los iconos*/
+	color: white;
+	text-align: center;
+}
+
+/* COMBAK:  */
+
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	width: 90%;
+	max-width: 1100px;
+	height: 100%;
+	margin: auto;
+	gap:10px;
+	overflow: hidden;
+	align-items: center;
+}
+
+.weigth-400{
+	font-weight: 400;
+}
+
+.weigth-600{
+	font-weight: 600;
+}
+
+.parrafo{
+	margin-bottom: 20px;
+}

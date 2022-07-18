@@ -1,0 +1,16 @@
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.textos-footer{
+	grid-column: 1/-1;
+}
+
+[class^="footer-item"] a{  /*Selector de clases para los iconos*/
+	color: white;
+	text-align: center;
+}

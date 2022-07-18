@@ -1,0 +1,135 @@
+@import url(menu.css);
+@import url(about_us.css);
+
+*{ /* COMBAK:  codig para el menu respon */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+
+@media (min-width: 1024px){
+	.container{
+		width: 1000px;
+	}
+}
+*/
+
+
+/*------------------------------------------*/
+/* no se de que es
+.grid{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	width: 90%;
+	max-width: 1100px;
+	height: 100%;
+	margin: auto;
+	gap:10px;
+	overflow: hidden;
+	align-items: center;
+}
+
+.weigth-400{
+	font-weight: 400;
+}
+
+.weigth-600{
+	font-weight: 600;
+}
+
+.parrafo{
+	margin-bottom: 20px;
+}
+
+*/
+/*para el responsive*/
+
+
+
+
+/* COMBAK:  */
+
+
+.item{ /* COMBAK:  separador  */
+		width: 60%;
+		margin: 40px 0;
+		height: auto;
+		padding: 40px;
+	}
+  .item{  /* COMBAK:  diseño del cuatros de igm */
+  	width: 30%;
+  	background: white;
+
+
+    	box-shadow: 0 0 8px rgB(153, 151, 151 ,0.4);
+
+  	overflow: hidden;
+  	height: 220px;
+  	padding: 20px 10px;
+  	text-align: center;
+  }
+  .items{ /* COMBAK: el separador de abajo */
+  	grid-column: 1/-1;
+  	display: flex;
+  	width: 100%;
+  	height: 100%;
+  	justify-content: space-evenly;
+  	text-align: center;
+  	flex-wrap: wrap;
+  }
+
+
+/* COMBAK: esto es solo de imgenes nada mas  */
+/* COMBAK: .img-mission{
+	grid-column: 1/7;
+	grid-row: 1/-1;
+}  no sirbe */
+
+.img{
+	width: 35%;/* COMBAK: lo normal es 95 % */
+	max-width: 400px;
+/* COMBAK:
+    	margin-top:8px;  esto es para el compreseion responst  */
+}
+
+/* COMBAK: .img-hero{
+	width: 100%;
+	height: auto;
+	grid-column: 7/13;
+}
+  NO SE SABE PARA QUE SIRBE */
+
+
+  /* COMBAK:  enlacesn de los precisios */
+  .cta{
+
+  	width: 64px;/* COMBAK: NORMAL 130 PX */
+  	color:white;
+  	background: #54B6EA;
+  	display: inline-block;
+  	text-align: center;
+  	padding: 10px 0;
+  	text-decoration: none;
+  	border: 2px solid black  ;
+    margin-right:-10PX;
+  	margin-top:-18px;
+
+  }
+
+
+  .cta:hover{
+  	color: black;
+  	background: rgba(136, 136, 136,0.3);
+  	border: 2px solid #23a9f2;
+  }
+
+
+.present-style{
+
+	background:#F8F8F8;
+	    	box-shadow: 0 0 8px rgB(153, 151, 151 ,0.4);
+	
+
+}

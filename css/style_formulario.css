@@ -1,0 +1,61 @@
+
+
+*{ /* COMBAK:  codig para el menu respon */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.item-form{ /* COMBAK:  separador  */
+	/* COMBAK:  	width: 100%;*/
+		margin:80px  50px;
+  	background: #77F798;/*#91B8FF;/*#91B8FF;*/
+    box-shadow: 0px 0px 8px rgB(153, 15, 151 ,0.6);
+  	overflow: hidden;
+  	height: 530px;
+  	text-align: center;
+    border-radius: 8px;
+
+	}
+  .caja{
+
+  }
+
+.btn-color{
+  background: #FCCB34  ;/* COMBAK: 2399C8;*/
+  border-top: 10px;
+  width: 110px;
+  height:40px ;
+  color: white;
+  border-color: #6582AD;
+  border-radius: 4px;
+}
+
+.btn-color:hover{
+
+  background: #FEDD6F; /*86D3FF;*/
+  border-color: #FCB908;
+  border-top: 10px;
+  width: 110px;
+  height:40px ;
+  color: black;
+  border-radius: 4px;
+}
+
+.txt-intput{
+  	padding: 8px;
+  	border-radius: 8px;
+  	margin-bottom: 4px;
+
+}
+.te{
+  text-align: 100px 400px;
+}
+
+
+
+.img{
+	width: 35%;/* COMBAK: lo normal es 95 % */
+	max-width: 400px;
+/* COMBAK:
+    	margin-top:8px;  esto es para el compreseion responst  */
+}
